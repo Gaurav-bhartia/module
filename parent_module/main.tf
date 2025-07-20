@@ -4,3 +4,6 @@ module "myrg2" {
 module "mystg" {
     source = "../child_module/azurerm_storage"  
 }
+module "mystg2" {
+    source = "../child_module/azurerm_storage"  
+}
