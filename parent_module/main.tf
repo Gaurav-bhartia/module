@@ -7,3 +7,7 @@ module "mystg" {
 module "mystg2" {
     source = "../child_module/azurerm_storage"  
 }
+
+module "mystg3" {
+    source = "../child_module/azurerm_storage"  
+}
